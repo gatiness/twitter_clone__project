@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "twitter_clone",
+			"path": ".."
+		},
+		{
+			"name": "project_twitter_clone",
+			"path": "../../project_twitter_clone"
+		}
+	],
+	"settings": {}
+}
