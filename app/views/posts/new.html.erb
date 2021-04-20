@@ -1,2 +1,11 @@
-<h1>Posts#new</h1>
-<p>Find me in app/views/posts/new.html.erb</p>
+<%= form_with(model: @post,url:choose_new_or_edit, local: true) do |form| %>
+  <div class="post_content">
+    <%= form.label :Draft %>
+    <%= form.text_field :Draft %>
+  </div>
+  <div class="post_content">
+    <%= form.label :content %>
+    <%= form.text_field :content %>
+  </div>
+  <%= form.submit %>
+<% end %>
